@@ -24,4 +24,4 @@ module.exports={lib:require("./emojis"),ordered:require("./ordered"),fitzpatrick
 },{"emoji-unicode-map":"obKH","emoji-name-map":"sVnz","emoji-names":"r4tI","emoji-chars":"zYO2"}],"Focm":[function(require,module,exports) {
 "use strict";var e=r(require("locomotive-scroll"));function r(e){return e&&e.__esModule?e:{default:e}}var o=require("emoji-dictionary"),t=new e.default({el:document.querySelector("[data-scroll-container]"),smooth:!0,multiplier:1});
 },{"locomotive-scroll":"yZcy","emoji-dictionary":"a7Gm"}]},{},["Focm"], null)
-//# sourceMappingURL=/Website/Website.1218d464.js.map
+//# sourceMappingURL=/Website.1218d464.js.map
