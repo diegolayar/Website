@@ -1,0 +1,928 @@
+html, body, form, main { height: 100%; }
+[contenteditable] { outline: 0px solid transparent; }
+
+a.pricioLink {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+a.pricioLink:hover {
+  color: black;
+}
+
+.firstRow {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.welcomingPicture {
+  display: flex;
+  flex-direction: column;
+}
+.backgroundVid {
+  height: 100vh;
+}
+
+.backgroundVidPricio {
+  height: 100vh;
+}
+
+.backgroundVidPhones {
+  height: 80vh;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.phonesParent {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -80px;
+  padding-top: 8%;
+}
+
+.aboutMe {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 2s;
+    transition: font-size 2s;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    display: flex;
+    color: black;
+}
+
+.fadeIn {
+  opacity: 1;
+  font-size: 40px;
+}
+
+
+.fadeInGator {
+  opacity: 1;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 25px;
+  font-weight:lighter;
+  color: black;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.love {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 40px;
+  padding-top: 30px;
+  font-weight: normal;
+  margin-left: 50px;
+  color: black
+}
+
+.emojiContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 10%;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.emoji {
+  font-size: 70px;
+  transform: rotate(110deg);
+  transition: transform 3s;
+}
+
+.rotate {
+  transform: rotate(0deg);
+}
+
+.profession {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://ffwallpaper.com/card/blue-gradient/blue-gradient-2.jpg');
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.profession3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+  padding-top: 20px;
+  color: white;
+  font-weight: lighter;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://ffwallpaper.com/card/blue-gradient/blue-gradient-2.jpg');
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease-in-out;
+  padding-bottom: 8%;
+}
+
+.profession2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://ffwallpaper.com/card/blue-gradient/blue-gradient-2.jpg');
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.profession:hover {
+  color: black;
+}
+
+.profession2:hover {
+  color: black;
+  cursor: alias;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.profession3:hover {
+  color: black;
+}
+.letter {
+  transition: all 0.3s ease-in-out;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://ffwallpaper.com/card/blue-gradient/blue-gradient-2.jpg');
+}
+.letter:hover {
+  transform: scale(.9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://ffwallpaper.com/card/blue-gradient/blue-gradient-2.jpg');
+}
+.space {
+  width: 30px;
+}
+@keyframes move1 {
+  50% {
+    transform: translateY(50px);
+    color: white;
+  }
+  100% {transform: translateY(0px);}
+}
+@keyframes move2 {
+
+  75% {
+    transform: translateY(50px);
+    color: white;
+  }
+  100% {transform: translateY(0px);}
+}
+@keyframes move3 {
+
+  90% {transform: translateY(50px);
+  color: white;}
+  100% {
+    transform: translateY(0px);
+  }
+}
+.dot1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+  color: white;
+  font-weight: bolder;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://ffwallpaper.com/card/blue-gradient/blue-gradient-2.jpg');
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 55px;
+  animation: move1 6s infinite forwards;
+  animation-duration: 3s;
+  transition: all 2s ease-in-out;
+  border-radius: 0;
+  border-style: none;
+  border-color: white;
+}
+.dot2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+  color: white;
+  font-weight: bolder;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://ffwallpaper.com/card/blue-gradient/blue-gradient-2.jpg');
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 55px;
+  animation: move2 6s infinite forwards;
+  animation-duration: 3s;
+}
+.dot3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+  color: white;
+  font-weight: bolder;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://ffwallpaper.com/card/blue-gradient/blue-gradient-2.jpg');
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 55px;
+  animation: move3 6.5s infinite forwards;
+  animation-duration: 3s;
+}
+.superParent {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+
+.pricio {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.pricioTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: white;
+  font-weight: normal;
+  padding-left: 100px;
+  padding-top: 80px;
+}
+
+.pricioTitleS {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: white;
+  font-weight: normal;
+  padding-left: 100px;
+}
+
+
+.projectRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.projectRowT {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  padding-bottom: 200px;
+}
+
+.subMine {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.vertical {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subMineTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: white;
+  font-weight: normal;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.subMineSubtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  color: white;
+  font-weight: lighter;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+
+.andmore {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: white;
+  font-weight: normal;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+
+.smiley {
+  background-image: url("/smiley.2aa45d73.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px !important;
+  height: 190px;
+  margin-left: 100px;
+}
+
+.processor {
+  background-image: url("/a.43bdc097.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px !important;
+  height: 190px;
+  margin-left: 100px;
+}
+.titanic {
+  background-image: url("/titanic.c9fa6dab.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px !important;
+  height: 190px;
+  margin-left: 100px;
+}
+
+
+.subMineNumber {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: white;
+  font-weight: normal;
+  padding-left: 100px;
+}
+
+
+.descriptionPricio {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 25px;
+  font-weight:lighter;
+  color: white;
+  margin-bottom: 20px;
+  padding-left: 100px;
+}
+
+.descriptionDramatic {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 25px;
+  font-weight:normal;
+  color: white;
+  margin-bottom: 20px;
+  padding-left: 100px;
+  transition: underline 2s;
+  text-decoration: none;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.paragraphAndPic {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+}
+.chickenParent {
+  width: 60%;
+}
+
+.chicken {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+  background-image: url('/papel.0310e9dd.png')
+}
+
+.noMore {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  color: white;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 125px;
+}
+
+.screenParent {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.screenshotParent {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/iphone.40ec835a.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.screenshot {
+  width: 60%;
+  background-image: url('/iphone.40ec835a.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pricioExplanation {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionPricio2 {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 25px;
+  font-weight:lighter;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.gatorRater {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+}
+
+.gatorTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: black;
+  font-weight: normal;
+  padding-left: 100px;
+  padding-top: 80px;
+}
+
+.gatorInfo {
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-bottom: 40px;
+}
+
+.gatorParagraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight:lighter;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.gatorParagraphR {
+  background-color: green;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight:lighter;
+  color: black;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.gatorParagraphB {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 50px;
+  font-weight: normal;
+  color: #334CD6;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.gatorParagraphB2 {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 25px;
+  font-weight: normal;
+  color: #334CD6;
+  margin-bottom: 5px;
+  padding-top:10px;
+  padding-bottom: 20px;
+}
+
+.appstore {
+  height: 80px;
+  width: 160px;
+  background-color: black;
+  border-radius: 5px;
+  border-width: thin;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  transition: all 0.5s ease-in-out;
+}
+
+.darkOrange {
+  background-image: url('/watch.8650ac65.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 200px;
+  transition: height 2.5s;
+}
+.fadeInPic {
+  height: 600px;
+
+}
+
+
+
+.features {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: normal;
+  padding-left: 100px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: black;
+}
+
+.featuresR {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: normal;
+  padding-bottom: 40px;
+}
+
+.dailyParent {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  background-color: purple;
+}
+
+.dailySub {
+  width: 70%;
+  transition: all .5s ease-in-out;
+}
+
+.dailySubR {
+  width: 70%;
+  transition: all .5s ease-in-out;
+}
+
+
+
+.dailyPara {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight:lighter;
+  color: black;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.weeklyParentR {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+}
+.weeklyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+
+
+.daily {
+  height: 500px;
+  background-image: url("/daily.e23b80f1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+.weeklypic {
+  background-image: url("/weekly.d04d0270.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.cargo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: gray;
+  font-weight: normal;
+  padding-left: 100px;
+}
+
+
+.cargo2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: gray;
+  font-weight: normal;
+  padding-bottom: 50px;
+}
+
+.commentpic {
+  background-image: url("/commentboard.5faac658.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.resourcepic {
+  background-image: url("/resource.b4ef2e10.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.dailySub:hover {
+  transform:  scale(.85) rotate(5deg);
+}
+
+.dailySubR:hover {
+    transform:  scale(0.85) rotate(-5deg);
+}
+
+.onlytip {
+  background-color: #384DEA;
+}
+
+.spaceout {
+  height: 200px;
+}
+.smallspaceout {
+  height: 50px;
+}
+.whatnow {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: #171D1C;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.appstore:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: black;
+}
+
+
+.someblock {
+  height: 1000px;
+  background-color: yellow;
+}
+
+.minesweeper {
+  display: flex;
+  flex-direction: column;
+  background-color: #171D1C;
+}
+
+.vagabond {
+  display: flex;
+  flex-direction: column;
+  background-color: #171D1C;
+  height: 100vh;
+}
+
+
+.federated {
+  height: 200px;
+  background-image: url("/federated.8ba89007.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.thankyou {
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.thanksmessage {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: black;
+  font-weight: normal;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.thankssmall {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.thankssmaller {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! locomotive-scroll v4.0.6 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+
+html.has-scroll-smooth {
+  overflow: hidden; }
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.has-scroll-smooth body {
+  overflow: hidden; }
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh; }
+
+[data-scroll-direction="horizontal"] [data-scroll-container] {
+  white-space: nowrap;
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap; }
+
+[data-scroll-direction="horizontal"] [data-scroll-section] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 100%; }
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0; }
+  .c-scrollbar:hover {
+    transform: scaleX(1.45); }
+  .c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+    opacity: 1; }
+  [data-scroll-direction="horizontal"] .c-scrollbar {
+    width: 100%;
+    height: 10px;
+    top: auto;
+    bottom: 0;
+    transform: scaleY(1); }
+    [data-scroll-direction="horizontal"] .c-scrollbar:hover {
+      transform: scaleY(1.3); }
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab; }
+  .has-scroll-dragging .c-scrollbar_thumb {
+    cursor: -webkit-grabbing;
+    cursor: grabbing; }
+  [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
+    right: auto;
+    bottom: 0; }
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
