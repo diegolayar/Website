@@ -14449,7 +14449,7 @@ var emoji = require("emoji-dictionary");
 var scroll = new _locomotiveScroll.default({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
-  multiplier: 1
+  multiplier: 0.8
 });
 },{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js","emoji-dictionary":"node_modules/emoji-dictionary/lib/index.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -14479,7 +14479,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62163" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62655" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

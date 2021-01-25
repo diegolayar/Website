@@ -787,7 +787,6 @@ a {
 }
 
 .thankyou {
-  height: 500px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -816,8 +815,6 @@ a {
   font-size: 30px;
   color: black;
   font-weight: lighter;
-  padding-top: 20px;
-  padding-bottom: 80px;
   text-align: center;
 }
 .thankssmaller2 {
@@ -825,8 +822,8 @@ a {
   font-size: 20px;
   color: gray;
   font-weight: lighter;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
