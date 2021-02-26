@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /Website",
+    "predeploy": "rm -rf dist && parcel build index.html",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
@@ -14,7 +14,9 @@
   "homepage": "https://diegolayar.github.io/Website/",
   "dependencies": {
     "emoji-dictionary": "^1.0.11",
-    "locomotive-scroll": "^4.0.6"
+    "locomotive": "^0.4.2",
+    "locomotive-scroll": "^4.0.6",
+    "scroll": "^3.0.1"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",

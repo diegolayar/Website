@@ -3,9 +3,14 @@ html, body, form, main {
   margin: 0px;
 }
 a.pricioLink {
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  height: 100%;
+  width: 100%;
   color: white;
-  transition: all 0.5s ease-in-out;
+  text-align: center;
+  transition: color 0.5s ease-in-out;
 }
 
 a.pricioLink:hover {
@@ -513,9 +518,10 @@ a {
 
 .gatorInfo {
   display: flex;
+  align-items: center;
   flex-direction: row;
   padding-left: 100px;
-  padding-bottom: 40px;
+  padding-bottom: 150px;
 }
 
 .gatorParagraph {
@@ -559,6 +565,8 @@ a {
 }
 
 .appstore {
+  display: flex;
+  align-items: center;
   height: 80px;
   width: 160px;
   background-color: black;
@@ -575,7 +583,7 @@ a {
 }
 
 .darkOrange {
-  background-image: url('img/watch.png');
+  background-image: url('img/gatornew.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -584,7 +592,7 @@ a {
   transition: height 2.5s;
 }
 .fadeInPic {
-  height: 600px;
+  height: 400px;
 
 }
 
@@ -662,7 +670,7 @@ a {
 
 .eventsPic {
   height: 800px;
-  background-image: url("img/events2.png");
+  background-image: url("img/events5.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -725,6 +733,13 @@ a {
   flex-direction: column;
 }
 
+.calculatorApp {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
 .spaceout {
   height: 200px;
 }
@@ -769,14 +784,13 @@ a {
 .vagabond {
   display: flex;
   flex-direction: column;
-  background-color: #171D1C;
-  height: 100vh;
+  background-color: #FAFAFA;
 }
 
 
 .federated {
-  height: 200px;
-  background-image: url("img/federated.png");
+  height: 600px;
+  background-image: url("img/vagabondwireframes.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -790,25 +804,17 @@ a {
 
 .thanksmessage {
   font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
+  font-size: 40px;
   color: black;
   font-weight: normal;
   padding-top: 80px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.thankssmall {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  color: black;
-  font-weight: lighter;
+  padding-bottom: 30px;
   text-align: center;
 }
 
 .thankssmaller {
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: black;
   font-weight: lighter;
   text-align: center;
