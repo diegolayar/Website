@@ -1,17 +1,17 @@
 {
   "name": "Website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /Website",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://diegolayar.github.io/Website",
+  "homepage": "https://diegolayar.github.io/Website/",
   "dependencies": {
     "emoji-dictionary": "^1.0.11",
     "locomotive-scroll": "^4.0.6"
